@@ -31,7 +31,7 @@ E o esquema está na pasta [resources](https://github.com/TExTecnologia/teste-de
 
 ### Wireframe
 
-Você fará o desenvolvimento do **App** seguindo esses wireframes
+Você fará o desenvolvimento do **App** seguindo os wireframes abaixo
 
 
 #### Lista de veículos
