@@ -1,8 +1,14 @@
 # Teste Dev
 
-Leia primeiro todo o projeto, faça sua estimativa de horas para o desenvolvimento e envie um email com o título `[Teste Dev] Estimativa` para lagden@textecnologia.com.br
+Leia primeiro todo o projeto...
+
+Faça uma estimativa de horas para o desenvolvimento e envie um email com o título `[Teste Dev] Estimativa` para lagden@textecnologia.com.br
 
 Quando finalizar o teste, publique tudo no seu [Github](https://github.com) e envie um email com o título `[Teste Dev] Finalizado` para rh@textecnologia.com.br
+
+**Atenção:**
+
+Coloque no `README.md` do seu projeto todas as informações para conseguirmos executá-lo
 
 
 ## Missão
@@ -47,12 +53,16 @@ Corolla XE 4P AT
 
 Utilize o método `buscaVeiculo` da API
 
+![Lista](https://github.com/TExTecnologia/teste-dev/raw/master/resources/wireframe/lista.png)
+
 
 #### Busca na lista de veículos
 
 Semelhante ao item **Lista de veículos**, mas aqui irá exibir apenas os itens que foram encontrados na busca
 
 Utilize o método `buscaVeiculo` da API
+
+![Busca](https://github.com/TExTecnologia/teste-dev/raw/master/resources/wireframe/busca.png)
 
 
 #### Detalhes do veículo
@@ -61,7 +71,10 @@ Exibe as informações do veículo (observe que nessa tela tem o botão de edita
 
 Utilize o método `veiculo` da API
 
-#### Inserir, Atualizar
+![Detalhes](https://github.com/TExTecnologia/teste-dev/raw/master/resources/wireframe/detalhes.png)
+
+
+#### Inserir e Atualizar
 
 Atualiza ou insere os dados do veículo...
 
@@ -71,10 +84,15 @@ E para editar, na tela de detalhes tem o botão `Editar`
 Para inserir um veiculo novo, utilize o método `createVeiculo` da API
 Para editar um veiculo já cadastrado, utilize o método `updateVeiculo` da API
 
+![Editar](https://github.com/TExTecnologia/teste-dev/raw/master/resources/wireframe/edit.png)
+
 
 ### Dica
 
 Utilize o [GraphQL Playground](https://www.graphqlbin.com/new) para ajudar nos testes e desenvolvimento das `queries` e `mutation`
+
+![Graphql Playgraound](https://github.com/TExTecnologia/teste-dev/raw/master/resources/graphql-playgraound-1.png)
+![Graphql Playgraound](https://github.com/TExTecnologia/teste-dev/raw/master/resources/graphql-playgraound-2.png)
 
 
 ## Dúvida
