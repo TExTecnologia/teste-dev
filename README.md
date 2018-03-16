@@ -25,8 +25,8 @@ Abaixo temos informações que são primordiais para o desenvolvimento do **App 
 
 Para desenvolver o **App**, você irá consumir os dados de uma API [GraphQL](http://graphql.org/)
 
-O endpoint para consumir a API é: https://api.nimble.com.br/veiculoQL/v1/gql
-E o esquema está na pasta [resources](https://api.nimble.com.br/veiculoQL/v1/gql)
+O endpoint para consumir a API é: https://api.nimble.com.br/veiculoQL/v1/gql  
+E o esquema está na pasta [resources](https://github.com/TExTecnologia/teste-dev/blob/master/resources/schema.graphql)
 
 
 ### Wireframe
