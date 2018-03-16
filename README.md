@@ -2,7 +2,7 @@
 
 Leia primeiro todo o projeto...
 
-Faça uma estimativa de horas para o desenvolvimento e envie um email com o título `[Teste Dev] Estimativa` para lagden@textecnologia.com.br
+Faça uma estimativa de horas para o desenvolvimento e envie um email com o título `[Teste Dev] Estimativa` para rh@textecnologia.com.br
 
 Quando finalizar o teste, publique tudo no seu [Github](https://github.com) e envie um email com o título `[Teste Dev] Finalizado` para rh@textecnologia.com.br
 
@@ -97,4 +97,4 @@ Utilize o [GraphQL Playground](https://www.graphqlbin.com/new) para ajudar nos t
 
 ## Dúvida
 
-Se tiver qualquer dúvida sobre esse teste, envie um email com o título `[Teste Dev] Dúvida` para lagden@textecnologia.com.br
+Se tiver qualquer dúvida sobre esse teste, envie um email com o título `[Teste Dev] Dúvida` para rh@textecnologia.com.br
