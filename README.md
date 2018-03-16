@@ -36,7 +36,7 @@ Você fará o desenvolvimento do **App** seguindo os wireframes abaixo
 
 #### Lista de veículos
 
-Na listagem, você irá exibir 20 items por página, onde o `Title` é a `marca` e o `Subtitle` é o `modelo`
+Na listagem, você irá exibir 20 items por página, onde o `Title` é a `marca` e o `Subtitle` é o `modelo`  
 A paginação é via scroll...
 
 Exemplo:
@@ -78,10 +78,10 @@ Utilize o método `veiculo` da API
 
 Atualiza ou insere os dados do veículo...
 
-Para inserir, na tela de listagem tem o botão `+`...
+Para inserir, na tela de listagem tem o botão `+`...  
 E para editar, na tela de detalhes tem o botão `Editar`
 
-Para inserir um veiculo novo, utilize o método `createVeiculo` da API
+Para inserir um veiculo novo, utilize o método `createVeiculo` da API  
 Para editar um veiculo já cadastrado, utilize o método `updateVeiculo` da API
 
 ![Editar](https://github.com/TExTecnologia/teste-dev/raw/master/resources/wireframe/edit.png)
