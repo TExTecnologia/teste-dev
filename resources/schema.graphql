@@ -1,0 +1,85 @@
+enum MarcaType {
+  FIAT
+  GM
+  CHEVROLET
+  VOLKSWAGEN
+  FORD
+  RENAULT
+  HYUNDAI
+  TOYOTA
+  HONDA
+  NISSAN
+  CITROEN
+  MITSUBISHI
+  PEUGEOT
+  SUZUKI
+}
+
+enum CombustivelType {
+  FLEX
+  ALCOOL
+  GASOLINA
+  DIESEL
+  ELETRICO
+  GNV
+  TRIFUEL
+  HIBRIDO
+}
+
+type PageInfo {
+  hasPreviousPage: Boolean!
+  hasNextPage: Boolean!
+  pages: Int
+  page: Int
+}
+
+type SearchResultItemEdge {
+  node: Veiculo
+}
+
+type SearchResultItemConnection {
+  total: Int!
+  edges: [SearchResultItemEdge]
+  pageInfo: PageInfo
+}
+
+interface Node {
+  _id: ID!
+}
+
+type Veiculo implements Node {
+  _id: ID!
+  marca: MarcaType
+  modelo: String
+  ano_fabricacao: Int
+  ano_modelo: Int
+  combustivel: CombustivelType
+  cor: String
+  usado: Boolean
+}
+
+input VeiculoInput {
+  marca: MarcaType
+  modelo: String
+  ano_fabricacao: Int
+  ano_modelo: Int
+  combustivel: CombustivelType
+  cor: String
+  usado: Boolean
+}
+
+type Mutation {
+  createVeiculo(data: VeiculoInput!): ID
+  updateVeiculo(data: JSON!, id: ID!): ID
+  deleteVeiculo(id: ID!): ID
+}
+
+type Query {
+  veiculo(id: ID!): Veiculo
+  buscaVeiculo(page: Int, limit: Int, query: String, type: String): SearchResultItemConnection
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}
