@@ -13,7 +13,7 @@ Coloque no `README.md` do seu projeto todas as informações para conseguirmos e
 
 ## Missão
 
-Desenvolver uma **App Mobile** em [React Native](https://facebook.github.io/react-native/) ou [Vue.js and NativeScript](https://nativescript-vue.org/)
+Desenvolver uma **App Mobile** em [React Native](https://facebook.github.io/react-native/) ou [Vue.js and NativeScript](https://vue-native.io/)
 
 
 ## Especificação
